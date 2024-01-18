@@ -1,0 +1,597 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+body{
+    width: 1440px;
+    /* height:3704px; */
+    background-color:#3B2A9F;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+.contenar{
+    width:90%;
+    margin:0 auto;
+}
+
+/* style start */
+/* header style start */
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    padding:5px;
+    top:0;
+    left:0;
+    position:sticky;
+}
+.header .logo {
+    width: 82px;
+    height: 45px;
+    margin-left: 55px;
+}
+.header .logo h1 {
+    font-size: 29px;
+    font-weight: 800;
+    font-family: poppins;
+    color: white;
+    line-height: 44.51px;
+}
+.header nav {
+    padding: 0px 0px;
+    margin-left: 435px;
+}
+.header nav ul {
+    list-style: none;
+}
+.header nav ul li {
+    display: inline;
+    margin-left: 88px;
+    padding: 0px 0px;
+}
+.header nav ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 24px;
+    color: white;
+}
+.header .btn {
+    width: 133.77px;
+    height: 41.43px;
+    background-color: #FA9021;
+    color: white;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    line-height: 19.5px;
+    border:none;
+}
+
+/* header style end */
+
+/* Gaming style start */
+.gaming {
+    width: 100%;
+    height: 770px;
+    padding: 10px;
+}
+
+
+.gaming .gaming_text {
+    width: 34%;
+    float: left;
+    margin-top: 167px;
+    margin-left: 85px;
+}
+.gaming .gaming_text ul {
+    list-style: none;
+    margin-bottom: 18px;
+}
+.gaming .gaming_text ul li {
+    display: inline;
+    color:white;
+    margin-right: 12px;
+    margin-bottom: 0px;
+}
+.gaming .gaming_text ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: poppins;
+    color: #E47500;
+    line-height: 25.02px;
+}
+
+
+.gaming .gaming_text h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: white;
+    line-height: 54.15px;
+    margin-bottom: 21px;
+}
+.gaming .gaming_text p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: poppins;
+    color: white;
+    line-height: 31.28px;
+}
+.gaming .gaming_text .btn {
+    width: 176px;
+    height: 47.84px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 24px;
+    color: white;
+    background-color: #FA8305;
+    border-radius: 40px;
+    margin-top: 25px;
+    border:none;
+}
+
+.gaming .gaming_pic {
+    width: 55%;
+    float: left;
+    margin-top: 49px;
+    margin-left: 71px;
+}
+
+.gaming .gaming_pic .gaming_img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Gaming style end */
+
+
+/* Gaming part2 style start */
+
+.gaming_part2 {
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+}
+
+.gaming_part2 .work{
+
+    
+}
+.gaming_part2 .work .title {
+    margin-top: 52px;
+    margin-bottom: 64px;
+    padding: 5px;
+}
+.gaming_part2 .work .title h1 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: white;
+    line-height: 45.12px;
+}
+
+.gaming_part2 .work .gaming-card {
+    width: 30%;
+    height: 348px;
+    float: left;
+    background-color: black;
+    padding: 27px;
+    color: white;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+.gaming_part2 .work .gaming-card .card_btn {
+    width: 140px;
+    height: 39px;
+    background-color: #23234d;
+    font-size: 14px;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 26.25px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+}
+.gaming_part2 .work .gaming-card h3 {
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 600px;
+    font-weight: 600;
+    color: white;
+    line-height: 37.5px;
+    margin-top: 26px;
+}
+.gaming_part2 .work .gaming-card p {
+    font-size: 14px;
+    font-family: 'poppins';
+    font-weight: 400px;
+    font-weight: 400;
+    line-height: 26.25px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+/* Gaming part2 style end */
+
+
+/* Gaming part3 style start */
+
+.gaming_part3 {
+    width: 100%;
+    height: 603px;
+    background-color: black;
+    padding: 10px;
+}
+
+.gaming_part3 .work1 .right {
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 61px;
+}
+
+.gaming_part3 .work1 .gaming_card2 {
+    width: 42%;
+    float: left;
+    color: white;
+}
+.gaming_part3 .work1 .right{
+    
+}
+
+.gaming_part3 .work1 .gaming_card2 .rectangle {
+    width: 496px;
+    height: 490px;
+    margin-top: 101px;
+}
+
+.gaming_part3 .work1 .gaming_card2 h5 {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 500px;
+    font-weight: 600;
+    line-height: 32.4px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.gaming_part3 .work1 .gaming_card2 h2 {
+    font-family: 'poppins';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44.1px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.gaming_part3 .work1 .gaming_card2 p {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: white;
+}
+/* Gaming part3 style end */
+
+
+/* Gaming Team style start */
+.gaming_team {
+    width: 100%;
+    height: 1180px;
+    background-color: #8D95D1;
+    padding: 10px;
+}
+.gaming_team .work2 {
+    padding: 0px;
+    margin-top: 130px;
+    width: 90%;
+    height: 400px;
+}
+
+.gaming_team .work2 .title {
+    margin-bottom: 50px;
+}
+
+.gaming_team .work2 .title h1 {
+    font-family: 'poppins';
+    font-size: 25px;
+    font-weight: 400px;
+    font-weight: 600;
+    line-height: 45.12px;
+    color: white;
+}
+
+.gaming_team .work2 .gaming-card {
+    width: 15%;
+    height: 227px;
+    float: left;
+    background-color: black;
+    padding: 17px;
+    margin-right: 21px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.gaming_team .work2 .gaming-card .billi{
+
+    
+}
+.gaming_team .work2 .gaming-card h3 {
+    font-family: 'poppins';
+    font-size: 19px;
+    font-weight: 400px;
+    font-weight: 600;
+    line-height: 38.48px;
+    color: white;
+}
+.gaming_team .work2 .gaming-card h1 {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400px;
+    font-weight: 300;
+    line-height: 32.4px;
+    color: white;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+.gaming_team .work3 {
+    width: 90%;
+    margin-top: 100px;
+}
+
+
+.gaming_team .work3 .lorem_titel {
+    width: 545px;
+    height: 129px;
+}
+.gaming_team .work3 .lorem_titel h1 {
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 400px;
+    font-weight: 600;
+    line-height: 56.25px;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.gaming_team .work3 .lorem_titel p {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.gaming_team .work3 .loop {
+    width: 100%;
+    height: 189px;
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    padding: 10px;
+}
+.gaming_team .work3 .loop_titel {
+    width: 60%;
+    float: left;
+    padding: 42px;
+    margin-right: 39px;
+}
+.gaming_team .work3 .right {
+    width: 30%;
+    text-align: right;
+    margin-top: 37px;
+    position:relative;
+}
+.gaming_team .work3 .loop_titel h1 {
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 400px;
+    font-weight: 500;
+    line-height: 45px;
+    color: white;
+    padding-bottom: 13px;
+}
+.gaming_team .work3 .loop_titel p {
+    font-family: 'poppins';
+    font-size: 17px;
+    font-weight: 400px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: white;
+    padding-bottom: 0px;
+}
+
+.gaming_team .work3 .loop_titel input[type=text] {
+    width: 396.68px;
+    padding: 9px 20px;
+    height: 68px;
+    margin: -16px -27px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: white;
+    line-height: 19.5px;
+}
+
+.gaming_team .work3 .loop_titel .btn {
+    width: 105px;
+    height: 37px;
+    background-color: #DC7000;
+    border-radius: 8px;
+    border: none;
+    font-size: 13px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    margin-left: 253px;
+}
+/* Gaming Team style end */
+
+/* gaming lest section style  start*/
+.gaming_least {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    padding:10px;
+}
+.gaming_least .work5 {
+    margin-top: 79px;
+}
+
+.gaming_least .work5 .display_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.gaming_least .work5 .display_flex .logo1 {
+    width: 20%;
+    height: 161px;
+}
+
+.gaming_least .work5 .display_flex h1 {
+    font-size: 24px;
+    font-family: poppins;
+    font-weight: 800;
+    color: white;
+    line-height: 36.84px;
+    margin-bottom: 13px;
+    margin-top: 0px;
+}
+
+.gaming_least .work5 .display_flex p {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    color: white;
+    line-height: 24px;
+}
+
+
+.gaming_least .work5 .display_flex .about {
+    width: 20%;
+    height: 161px;
+}
+.gaming_least .work5 .display_flex .about h3 {
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: 500;
+    color: white;
+    line-height: 25.5px;
+    margin-bottom: 26px;
+    margin-top: 0px;
+}
+.gaming_least .work5 .display_flex .about ul {
+    list-style: none;
+}
+
+.gaming_least .work5 .display_flex .about ul li {
+    margin-bottom: 9px;
+}
+
+.gaming_least .work5 .display_flex .about ul li a{
+    color:white;
+    
+}
+
+.gaming_least .work5 .display_flex .Contact_us {
+    width: 20%;
+    height: 161px;
+}
+.gaming_least .work5 .display_flex .Contact_us h3{
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: 500;
+    color: white;
+    line-height: 25.5px;
+    margin-bottom: 26px;
+    margin-top: 0px;
+    
+}
+.gaming_least .work5 .display_flex .Contact_us p{
+    
+}
+
+.gaming_least .work5 .display_flex .social {
+    width: 20%;
+    height: 161px;
+    padding: 5px;
+}
+.gaming_least .work5 .display_flex .social ul {
+    width: 184px;
+    height: 34px;
+    text-align: right;
+    margin-top: 122px;
+}
+.gaming_least .work5 .display_flex .social ul li{
+    
+}
+
+.gaming_least .work5 .display_flex .social ul li {
+    display: inline;
+    margin-right: 6px;
+}
+
+.gaming_least .work5 .display_flex .social ul li a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 23px;
+    color: black;
+}
+
+.gaming_least .work5 .display_flex .social ul li a .fa-brands {
+    
+}
+
+hr {
+    border: 0.8px solid #D2D2D2;
+    margin-top: 100px;
+}
+.footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 13px;
+    font-weight: 400px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 24.78px;
+    color: white;
+}
+/* gaming lest section style  end*/
+
+
