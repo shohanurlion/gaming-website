@@ -1,2 +1,2 @@
 # gaming-website
-Gamin website: https://github.com/shohanurlion/gaming-website
+Gamin website: https://shohanurlion.github.io/gaming-website/
